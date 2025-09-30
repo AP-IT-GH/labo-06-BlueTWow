@@ -1,0 +1,48 @@
+:root {
+    --color-background: #f2f2f2;
+    --color-card: #ffffff;
+    --color-h2: #6c6c6c;
+    --h1-size: 2rem;
+    --h2-size: 1.2rem;
+}
+
+body {
+    display: grid;
+    background-color: var(--color-background);
+    min-height: 100dvh;
+    align-content: center;
+    justify-content: center;
+}
+
+.card {
+    background-color: var(--color-card);
+    border-radius: 10px;
+    width: 450px;
+    height: 400px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 2rem 2rem 2rem;
+    box-shadow: rgb(232, 232, 232) 5px 5px 5px;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: var(--h1-size);
+    font-weight: bold;
+    padding-bottom: 0.8rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: var(--color-h2);
+    padding-bottom: 1.5rem;
+    font-size: var(--h2-size)
+}
+
+img {
+    border:  3px solid aliceblue;
+    border-radius: 50%;
+    padding: 5px;
+    position: relative;
+    bottom: 65px;
+}
